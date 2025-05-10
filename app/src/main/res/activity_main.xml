@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="16dp">
+
+    <EditText android:id="@+id/message" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Message with {name}, {phone}, {address}" />
+
+    <EditText android:id="@+id/delay" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Delay in ms"
+        android:inputType="number" />
+
+    <Button android:id="@+id/upload" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Upload CSV" />
+
+    <Button android:id="@+id/send" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Send SMS" />
+</LinearLayout>
